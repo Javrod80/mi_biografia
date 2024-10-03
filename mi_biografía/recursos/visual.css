@@ -1,3 +1,51 @@
 section {
     margin-bottom: 20px;
   }
+#titulo {
+    text-align: center;
+    color:blue;
+    text-shadow: 0cap;
+    text-anchor: start;
+    font-size: 45px;
+    font-style:italic;
+    font-weight: bold;
+}
+a {
+    text-decoration: underline;
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+a:hover {
+  background-color: rgb(19, 145, 230);
+}
+a:visited {
+  color: #00FF00;
+}
+#header {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+body {
+  background-color: hsl(192, 74%, 85%); 
+}
+#index nav{
+  background-color: #1aa744;
+  color: #f50c0c;
+  padding: 10px;
+  text-align: center;
+}
+div:hover {
+  background-color: blue;
+}
+/*.input {
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+ */ 
+input[type="text"]:focus {
+  background-color: lightblue;
+}
