@@ -1,46 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi biografía</title>
-    <link rel="stylesheet" href="recursos/visual.css">
-</head>
-<body>
-    <section id="header">
+    <link rel="stylesheet" href="recursos/visual.css" />
+  </head>
+  <body>
     <header>
-        <h1 id="titulo">Bienvenidos a Mi biografía</h1>
+      <h1 id="titulo">Bienvenidos a Mi Biografía</h1>
     </header>
-       
-        <nav>
-            
-        <a href="biografia.html">Presentación</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contacto.html">Contacto</a>
-            
-        </nav>
-    </section>
-    <section>   
-        <h2>Javier Arias, <span>experimentanto con esto del html,css y js.</span></h2>
-           <img src="https://picsum.photos/id/237/200/300" alt="Javier Arias">
-           <div>
-           <p>El perrito salió de por ahí.......también podría haber salido gato....</p>
-        </div>
-       </section>
-    <footer>
-        <p>Copyright 2024</p>
-    </footer>
-    <footer>
-        <a href="https://www.facebook.com/tu-usuario" target="_blank">
-          <img src="https://www.facebook.com/favicon.ico" alt="Facebook">
-        </a>
-        <a href="https://twitter.com/tu-usuario" target="_blank">
-          <img src="https://twitter.com/favicon.ico" alt="Twitter">
-        </a>
 
-        <a href="https://www.linkedin.com/in/tu-usuario" target="_blank">
-          <img src="https://www.linkedin.com/favicon.ico" alt="LinkedIn">
-        </a>
-      </footer>
-</body>
+    <nav>
+      <a href="biografia.html">Presentación</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <div>
+      <h2 id="presentacion">
+        Javier Arias, <span>experimentanto con esto del html,css y js.</span>
+      </h2>
+      <img
+        id="perrito"
+        src="https://picsum.photos/id/237/200/300"
+        alt="Javier Arias"
+      />
+        <div>
+        <p id="texto-grande">
+          El perrito salió de por ahí.......también podría haber salido gato....
+        </p>
+      </div>
+      <div class="flag-container">
+        <img
+          class="flag"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Uruguay.svg/512px-Flag_of_Uruguay.svg.png"
+          alt="Bandera de Uruguay"
+        />
+          <img
+          class="flag"
+          src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/512px-Flag_of_Spain.svg.png"
+          alt="Bandera de España"
+        />
+     
+     </div>
+      </div>
+   
+    </section>
+    <footer class="footer-copyright">
+      <p>Copyright 2024</p>
+    </footer>
+
+    <footer class="footer-social">
+      <a href="https://www.facebook.com/tu-usuario" target="_blank">
+        <img src="https://www.facebook.com/favicon.ico" alt="Facebook" />
+      </a>
+      <a href="https://twitter.com/tu-usuario" target="_blank">
+        <img src="https://twitter.com/favicon.ico" alt="Twitter" />
+      </a>
+      <a
+        class="Volver"
+        href="https://www.linkedin.com/in/tu-usuario"
+        target="_blank"
+      >
+        <img src="https://www.linkedin.com/favicon.ico" alt="LinkedIn" />
+      </a>
+    </footer>
+  </body>
 </html>

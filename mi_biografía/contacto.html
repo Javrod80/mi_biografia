@@ -12,36 +12,30 @@
         <h1>Formulario de contacto</h1>
     </header>
 
-    <p>Por favor, rellene el siguiente formulario de contacto si quieres saber algo más.<s>
+    <p id="texto-grande">Por favor, rellene el siguiente formulario de contacto si quieres saber algo más.<s>
         Intentaré contestar pero si no contesto por algo será....
     </s></p>
 
      
         <form>
             <div>
-                <label for="nombre">Nombre</label>
+                <label>Nombre:  </label>
                 <input type="text" name="nombre" id="nombre">
                 <p></p>
             </div>
-            <div>
+            <form>
                 <div>
                     <label>Apellidos:</label>    
                     <input  type="text" name="Apellido">
                     <p></p>
                 </div>
-                <div>
-                    <label>Edad:</label>
-                    <input class="input" type="number" name="Edad">
-                    <p></p>
-                </div>
-                
-                <div>
-                    <label>Correo electronico:</label>
-                    <input class="input" type="email" name="Email">   
+                               <div>
+                    <label>Email:</label>
+                    <input  type="email" name="Email">   
                     <p></p> 
                 </div>
                 <div>
-                    <input class="input" type="checkbox" name="leido">
+                    <input  type="checkbox" name="leido">
                     <label>Declaro haber leido todas las chorradas  y aceptarlas así como son .</label>
                     <p></p>
                 </div>
@@ -50,5 +44,9 @@
                     <i class="material-icons">&#xe405;</i>
         
                 </div>
-</body>
+            </form>    
+                <footer id="index">
+                 <a href="index.html">Volver</a>
+                </footer>
+               
 </html>
