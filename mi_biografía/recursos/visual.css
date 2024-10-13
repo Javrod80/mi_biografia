@@ -5,6 +5,11 @@ header {
   text-align: center;
   font-size: 3rem;
   font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 40px 10px rgba(0, 0, 0, 0.5);
+  border: 2px solid #007bff;
+  margin-bottom: 20px;
+  border-radius: 15px;
 }
 body {
   background-color: Azure;
@@ -27,6 +32,12 @@ nav ul li {
 }
 nav ul li a:hover {
   color: #007bff;
+}
+.texto-reducido {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+  font-size: 22px;
 }
 #presentacion {
   font-size: 2rem;
@@ -52,9 +63,9 @@ nav ul li a:hover {
 }
 .footer-copyright {
   text-align: center;
-  margin-top: 225px;
+  position: relative;
+  top: -50px; /* Mueve el footer 50px hacia arriba */
 }
-
 .footer-social {
   text-align: center;
 }
@@ -142,6 +153,19 @@ input[type="submit"] {
   margin: 10px 0;
   border-radius: 5px;
   border: 1px solid #ccc;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="submit"]:focus {
+  border: 2px solid #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+input[type="submit"]:hover {
+  background-color: #0069d9;
 }
 
 input[type="submit"] {
