@@ -20,35 +20,50 @@
     <section>
       <p id="texto-pequeño">
         Estas habilidades se tratan de demostrar lo que puedo hacer con objetos
-        multimedia.
+        multimedia. Otra habilidad que tengo es que soy sumiller, por lo que me
+        gusta el vino y gracias a él he estado trabajando un buen tiempo..
       </p>
       <br />
-      <img id="gato" <img src="recursos\IMG_6854.jpg" alt="Gato durmiendo" />
+      <img id="gato" src="recursos\fotos\IMG_6854.jpg" alt="Yo trabajando" />
 
-      <p id="texto-pequeño">Esta imagen soy yo trabajando...</p>
+      <p id="texto-breve">
+        Esta imagen soy yo trabajando, después de catar algún que otro vino...
+      </p>
       <br />
-      <p id="texto-pequeño">Puedes ver el proyecto de mi trabajo en:</p>
-      <a id="gato" href="recursos\IMG_6855.jpg" target="_blank"
+      <p id="texto-enlace">Puedes ver mi proyecto de trabajo en:</p>
+      <a
+        id="gato"
+        href="https://www.linkedin.com/in/javier-rodrigo-arias-lobato-8980162a6"
+        target="_blank"
         >Ir al proyecto</a
       >
       <br />
     </section>
     <br />
-    <section>
-      <video class="centrado" width="320" height="240" controls>
-        <source <source src="recursos\videoPrueba.mp4" type="video/mp4" />
-        Tu navegador no soporta el elemento video.
-      </video>
+    <section class="media-section">
+      <div class="video-container">
+        <h3><span class="texto-fondo">Video de prueba</span></h3>
+
+        <video width="320" height="240" controls>
+          <source src="recursos\audioVideo\videoPrueba.mp4" type="video/mp4" />
+          Tu navegador no soporta el elemento video.
+        </video>
+      </div>
+
+      <div class="audio-container">
+        <h3><span class="texto-fondo">Audio de prueba</span></h3>
+
+        <audio controls>
+          <source
+            src="recursos\audioVideo\sonidoPrueba.mp3"
+            type="audio/mpeg"
+          />
+          Your browser does not support the audio element.
+        </audio>
+      </div>
     </section>
-    <br />
-    <section>
-      <audio class="centrado" controls>
-        <source src="recursos\sonidoPrueba.mp3" type="audio/mpeg" />
-        Your browser does not support the audio element.
-      </audio>
-    </section>
-    <footer id="index">
-      <a href="index.html">Volver</a>
+    <footer>
+      <a class="index" href="index.html">Volver</a>
     </footer>
   </body>
 </html>
