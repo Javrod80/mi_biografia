@@ -49,7 +49,7 @@ h3 {
   border-radius: 3px;
   display: inline-block;
 }
-.texteducido {
+.texto-reducido {
   max-width: 800px;
   margin: 0 auto;
   text-align: justify;
@@ -63,13 +63,7 @@ h3 {
   margin-top: 20px;
   margin-top: 80px;
 }
-#perrito {
-  display: block;
-  margin: 20px auto;
-  width: 300px;
-  height: auto;
-  border-radius: 25px;
-}
+
 #texto-grande {
   font-size: 15px;
   font-style: italic;
@@ -130,8 +124,8 @@ h3 {
   font-size: 50px;
   margin: 20px 0;
 }
-p {
-  margin: 0 100px;
+#proyecto {
+  margin: 700px;
 }
 #fotoIA1 {
   display: block;
