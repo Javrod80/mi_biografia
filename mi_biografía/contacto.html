@@ -6,6 +6,7 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="recursos/visual.css">
+    <script src="recursos/accion.js"></script>
 </head>
 <body>
     <header>
@@ -21,21 +22,20 @@
     <p id="texto-grande">Por favor, rellene el siguiente formulario de contacto si quieres saber algo más.<s>
         Intentaré contestar pero si no contesto por algo será....
     </s></p>
-
-     
-        <form>
+   
+        <form  id ="miFormulario">
             <div>
                 <label>Nombre:  </label>
                 <input type="text" name="nombre" id="nombre">
                 <p></p>
             </div>
-            <form>
+            <form id="miFormulario">
                 <div>
                     <label>Apellidos:</label>    
                     <input  type="text" name="Apellido">
                     <p></p>
                 </div>
-                               <div>
+                <div>
                     <label>Email:</label>
                     <input  type="email" name="Email">   
                     <p></p> 
@@ -45,12 +45,18 @@
                     <label>Declaro haber leido todas las chorradas  y aceptarlas así como son .</label>
                     <p></p>
                 </div>
+           
                 <div>
-                    <input type="submit" value="Enviar">
+                    <input id="enviar" class="button" type="submit" value="Enviar">
+                    <h6>Dale al boton de enviar para ver...</h6>
                     <i class="material-icons">&#xe405;</i>
+                    <i class="material-icons">&#128512;</i>
+                    <i class="material-icons">&#128640;</i>
+                    <i class="material-icons">&#xe405;</i>
+                   
         
                 </div>
-            </form>    
+            </form>
                 <footer >
                  <a class="index" href="index.html">Volver</a>
                 </footer>
