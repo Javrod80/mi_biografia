@@ -41,6 +41,10 @@ h3 {
   text-align: center;
   font-weight: bold;
 }
+h2::first-letter {
+  font-size: 2em;
+  color: orange;
+}
 .textfondo {
   font-size: 18px;
   background-color: #a8d1fc;
@@ -75,13 +79,19 @@ h3 {
   text-align: center;
   position: relative;
   top: -50px;
+  padding: 20px 0;
+  text-align: right;
+  margin-right: 20px;
 }
 .footer-social {
-  text-align: center;
+  text-align: left;
+  margin-left: 20px;
+  padding: 10px 0;
 }
 
 .footer-social a {
   margin: 0 10px;
+  padding: 10px 0;
 }
 .footer-social img {
   width: 30px;
@@ -141,7 +151,7 @@ h3 {
   text-align: justify;
   margin: 0 auto;
   margin-top: 80px;
-  max-width: 800px;
+  max-width: 900px;
 }
 #index {
   font-size: 15px;
@@ -216,4 +226,41 @@ button {
   background-color: #0069d9;
   color: white;
   cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  max-width: 1600px;
+}
+
+.content {
+  margin-right: 10px;
+}
+
+aside {
+  width: 200px;
+  height: 400px;
+  background-color: #f9f9f9;
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 50px;
+  box-sizing: border-box;
+  text-align: center;
+}
+blockquote {
+  margin: 0;
+  padding: 0;
+  font-size: 1.2em;
+  font-style: italic;
+  text-align: center;
+  color: #3d0dcd;
+  margin-top: 25px;
+}
+aside h3 {
+  color: #ce0c0c;
+  margin-bottom: 10px;
 }

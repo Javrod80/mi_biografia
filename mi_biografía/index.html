@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mi biografía</title>
     <link rel="stylesheet" href="recursos/visual.css" />
-    
   </head>
   <body>
     <header>
@@ -18,39 +17,49 @@
       <a href="contacto.html">Contacto</a>
     </nav>
 
-    <div>
-      <h2 id="presentacion">
-        Javier Arias, <span>experimentanto con esto del html,css y js.</span>
-      </h2>
-      <img
-        id="fotoIA1"
-         src=recursos\fotos\IMG_6846.jpg
-        alt="Javier Arias"  />
-        <div>
-        <p id="texto-grande">
-         Esta podría ser mi cara... aunque soy un poco diferente...
+    <div class="container">
+      <div class="content">
+        <h2 id="presentacion">
+          Aquí me verás experimentando con esto del html,css y js.
+        </h2>
+        <p id="texto-pequeño">
+          Hola y bienvenidos a mi rincón personal en la web.En esta página,
+          podrán conocer más sobre mí: mi formación, mis experiencias y lo que
+          me motiva cada día. También compartiré algunos de mis proyectos
+          favoritos.
         </p>
-      </div>
-      <div class="flag-container">
-        <img
-          class="flag"
-          src=recursos\fotos\uy.png
-          alt="Bandera de Uruguay"
-        />
-          <img
-          class="flag"
-          src=recursos\fotos\es.png
-          alt="Bandera de España"
-        />
-     
-     </div>
-      </div>
-   
-    </section>
-    <footer class="footer-copyright">
-      <p>Copyright 2024</p>
-    </footer>
 
+        <img
+          id="fotoIA1"
+          src="recursos/fotos/IMG_6846.jpg"
+          alt="Javier Arias"
+        />
+        <div>
+          <p id="texto-grande">
+            Esta podría ser mi cara... aunque soy un poco diferente...
+          </p>
+        </div>
+        <div class="flag-container">
+          <img
+            class="flag"
+            src="recursos/fotos/uy.png"
+            alt="Bandera de Uruguay"
+          />
+          <img
+            class="flag"
+            src="recursos/fotos/es.png"
+            alt="Bandera de España"
+          />
+        </div>
+      </div>
+      <aside>
+        <h3>Cita Favorita</h3>
+        <blockquote>
+          "La vida es 10% lo que me ocurre y 90% cómo reacciono ante ello." —
+          Charles R. Swindoll
+        </blockquote>
+      </aside>
+    </div>
     <footer class="footer-social">
       <a href="https://www.facebook.com/tu-usuario" target="_blank">
         <img src="https://www.facebook.com/favicon.ico" alt="Facebook" />
@@ -65,6 +74,10 @@
       >
         <img src="https://www.linkedin.com/favicon.ico" alt="LinkedIn" />
       </a>
+    </footer>
+
+    <footer class="footer-copyright">
+      <p>Copyright 2024.</p>
     </footer>
   </body>
 </html>
