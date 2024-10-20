@@ -25,29 +25,29 @@
    
         <form  id ="miFormulario">
             <div>
-                <label>Nombre:  </label>
+                <label for ="nombre">Nombre:  </label>
                 <input type="text" name="nombre" id="nombre">
                 <p></p>
             </div>
-            <form id="miFormulario">
+           
                 <div>
-                    <label>Apellidos:</label>    
-                    <input  type="text" name="Apellido">
+                    <label for ="apellido">Apellidos:</label>    
+                    <input  type="text" name="Apellido" id="apellido">
                     <p></p>
                 </div>
                 <div>
-                    <label>Email:</label>
-                    <input  type="email" name="Email">   
+                    <label for="email">Email:</label>
+                    <input  type="email" name="Email" id="email">   
                     <p></p> 
                 </div>
                 <div>
-                    <input  type="checkbox" name="leido">
-                    <label>Declaro haber leido todas las chorradas  y aceptarlas así como son .</label>
+                    <input id="acepto" type="checkbox" name="acepto">
+                    <label for="acepto">Declaro haber leido todas las chorradas  y aceptarlas así como son .</label>
                     <p></p>
                 </div>
            
                 <div>
-                    <input id="enviar" class="button" onclick="createHTML()"type="submit" value="Enviar">
+                   <button id="enviar" class="button" type="button">Enviar</button>
                     <h6>Dale al boton de enviar para ver...</h6>
                     <i class="material-icons">&#xe405;</i>
                     <i class="material-icons">&#128512;</i>

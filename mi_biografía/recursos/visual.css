@@ -191,9 +191,8 @@ form {
 }
 
 input[type="text"],
-input[type="number"],
 input[type="email"],
-input[type="submit"] {
+button {
   width: 40%;
   padding: 10px;
   margin: 10px 0;
@@ -202,19 +201,18 @@ input[type="submit"] {
 }
 
 input[type="text"]:focus,
-input[type="number"]:focus,
 input[type="email"]:focus,
-input[type="submit"]:focus {
+button :focus {
   border: 2px solid #007bff;
   outline: none;
   box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 
-input[type="submit"]:hover {
+button:hover {
   background-color: #bd0a22;
 }
 
-input[type="submit"] {
+button {
   background-color: #0069d9;
   color: white;
   cursor: pointer;
