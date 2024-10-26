@@ -1,14 +1,14 @@
 header {
   background-color: #a8d1fc;
   color: white;
-  padding: 35px;
+  padding: 2rem;
   text-align: center;
-  font-size: 25px;
+  font-size: 1.6rem;
   font-weight: bold;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 40px 10px rgba(0, 0, 0, 0.5);
   border: 2px solid #007bff;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   border-radius: 15px;
 }
 body {
@@ -21,17 +21,16 @@ body {
 }
 nav {
   position: absolute;
-  right: 15px;
-  top: 250px;
+  right: 1rem;
+  top: 15rem;
   color: #000;
-  font-size: 18px;
-  padding-top: 15px;
+  font-size: 1.125rem;
   font-weight: bold;
-  padding: 10px;
+  padding: 0.625rem;
   text-align: center;
 }
 nav ul li {
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 nav ul li a:hover {
   color: #007bff;
@@ -40,6 +39,7 @@ h3 {
   margin: 20px 0;
   text-align: center;
   font-weight: bold;
+  margin-top: 100px;
 }
 h2::first-letter {
   font-size: 2em;
@@ -54,18 +54,17 @@ h2::first-letter {
   display: inline-block;
 }
 .texto-reducido {
-  max-width: 800px;
+  max-width: 50rem;
   margin: 0 auto;
   text-align: justify;
-  font-size: 22px;
+  font-size: 1.375rem;
 }
 #presentacion {
-  font-size: 30px;
+  font-size: 1.875rem;
   color: #333;
   text-align: center;
   font-weight: bold;
-  margin-top: 20px;
-  margin-top: 80px;
+  margin-top: 5rem;
 }
 
 #texto-grande {
@@ -81,7 +80,7 @@ h2::first-letter {
   top: -50px;
   padding: 20px 0;
   text-align: right;
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }
 .footer-social {
   text-align: left;
@@ -94,7 +93,7 @@ h2::first-letter {
   padding: 10px 0;
 }
 .footer-social img {
-  width: 30px;
+  width: 1.875rem;
   height: auto;
 }
 
@@ -102,7 +101,7 @@ h2::first-letter {
   background: #333333;
   color: white;
   text-align: center;
-  padding: 10px;
+  padding: 0.625rem;
   position: relative;
   bottom: 0;
   width: 100%;
@@ -123,7 +122,7 @@ h2::first-letter {
   margin: 20px 0;
 }
 #texto-enlace {
-  font-size: 15px;
+  font-size: 2.2rem;
   font-style: italic;
   text-align: center;
   margin: 20px 0;
@@ -135,7 +134,10 @@ h2::first-letter {
   margin: 20px 0;
 }
 #proyecto {
-  margin: 700px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 #fotoIA1 {
   display: block;
@@ -163,15 +165,20 @@ h2::first-letter {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  margin: 20px 0;
+  margin: 50px 0;
   gap: 30px;
+  margin-top: 80px;
 }
 
 .video-container,
 .audio-container {
   text-align: center;
-
-  max-width: 320px;
+  max-width: 350px;
+  padding: 20px;
+  border: 2px solid #cccccc;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+  background-color: #f9f9f9;
 }
 h3 {
   margin: 0;
@@ -189,10 +196,11 @@ audio {
 audio {
   background-color: #f90e0e;
 }
+
 form {
   background-color: #f9f9f9;
-  padding: 20px;
-  border-radius: 10px;
+  padding: 1.25rem;
+  border-radius: 0.625rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 510px;
   margin: 20px auto;
@@ -204,8 +212,8 @@ input[type="text"],
 input[type="email"],
 button {
   width: 40%;
-  padding: 10px;
-  margin: 10px 0;
+  padding: 0.625rem;
+  margin: 0.625rem 0;
   border-radius: 5px;
   border: 1px solid #ccc;
 }
