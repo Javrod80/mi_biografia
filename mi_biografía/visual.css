@@ -97,15 +97,7 @@ h2::first-letter {
   height: auto;
 }
 
-.index {
-  background: #333333;
-  color: white;
-  text-align: center;
-  padding: 0.625rem;
-  position: relative;
-  bottom: 0;
-  width: 100%;
-}
+
 .flag-container {
   text-align: center;
   margin: 60px 0;
